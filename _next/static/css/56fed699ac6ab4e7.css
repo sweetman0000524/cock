@@ -81,18 +81,21 @@
         left: 0;
         margin: 0
     }
+
     .Toastify__toast-container--top-center,
     .Toastify__toast-container--top-left,
     .Toastify__toast-container--top-right {
         top: 0;
         transform: translateX(0)
     }
+
     .Toastify__toast-container--bottom-center,
     .Toastify__toast-container--bottom-left,
     .Toastify__toast-container--bottom-right {
         bottom: 0;
         transform: translateX(0)
     }
+
     .Toastify__toast-container--rtl {
         right: 0;
         left: auto
@@ -257,6 +260,7 @@
     0% {
         transform: scaleX(1)
     }
+
     to {
         transform: scaleX(0)
     }
@@ -299,6 +303,7 @@
 }
 
 @keyframes Toastify__bounceInRight {
+
     0%,
     60%,
     75%,
@@ -306,20 +311,25 @@
     to {
         animation-timing-function: cubic-bezier(.215, .61, .355, 1)
     }
+
     0% {
         opacity: 0;
         transform: translate3d(3000px, 0, 0)
     }
+
     60% {
         opacity: 1;
         transform: translate3d(-25px, 0, 0)
     }
+
     75% {
         transform: translate3d(10px, 0, 0)
     }
+
     90% {
         transform: translate3d(-5px, 0, 0)
     }
+
     to {
         transform: none
     }
@@ -330,6 +340,7 @@
         opacity: 1;
         transform: translate3d(-20px, 0, 0)
     }
+
     to {
         opacity: 0;
         transform: translate3d(2000px, 0, 0)
@@ -337,6 +348,7 @@
 }
 
 @keyframes Toastify__bounceInLeft {
+
     0%,
     60%,
     75%,
@@ -344,20 +356,25 @@
     to {
         animation-timing-function: cubic-bezier(.215, .61, .355, 1)
     }
+
     0% {
         opacity: 0;
         transform: translate3d(-3000px, 0, 0)
     }
+
     60% {
         opacity: 1;
         transform: translate3d(25px, 0, 0)
     }
+
     75% {
         transform: translate3d(-10px, 0, 0)
     }
+
     90% {
         transform: translate3d(5px, 0, 0)
     }
+
     to {
         transform: none
     }
@@ -368,6 +385,7 @@
         opacity: 1;
         transform: translate3d(20px, 0, 0)
     }
+
     to {
         opacity: 0;
         transform: translate3d(-2000px, 0, 0)
@@ -375,6 +393,7 @@
 }
 
 @keyframes Toastify__bounceInUp {
+
     0%,
     60%,
     75%,
@@ -382,20 +401,25 @@
     to {
         animation-timing-function: cubic-bezier(.215, .61, .355, 1)
     }
+
     0% {
         opacity: 0;
         transform: translate3d(0, 3000px, 0)
     }
+
     60% {
         opacity: 1;
         transform: translate3d(0, -20px, 0)
     }
+
     75% {
         transform: translate3d(0, 10px, 0)
     }
+
     90% {
         transform: translate3d(0, -5px, 0)
     }
+
     to {
         transform: translateZ(0)
     }
@@ -405,11 +429,13 @@
     20% {
         transform: translate3d(0, -10px, 0)
     }
+
     40%,
     45% {
         opacity: 1;
         transform: translate3d(0, 20px, 0)
     }
+
     to {
         opacity: 0;
         transform: translate3d(0, -2000px, 0)
@@ -417,6 +443,7 @@
 }
 
 @keyframes Toastify__bounceInDown {
+
     0%,
     60%,
     75%,
@@ -424,20 +451,25 @@
     to {
         animation-timing-function: cubic-bezier(.215, .61, .355, 1)
     }
+
     0% {
         opacity: 0;
         transform: translate3d(0, -3000px, 0)
     }
+
     60% {
         opacity: 1;
         transform: translate3d(0, 25px, 0)
     }
+
     75% {
         transform: translate3d(0, -10px, 0)
     }
+
     90% {
         transform: translate3d(0, 5px, 0)
     }
+
     to {
         transform: none
     }
@@ -447,11 +479,13 @@
     20% {
         transform: translate3d(0, 10px, 0)
     }
+
     40%,
     45% {
         opacity: 1;
         transform: translate3d(0, -20px, 0)
     }
+
     to {
         opacity: 0;
         transform: translate3d(0, 2000px, 0)
@@ -499,6 +533,7 @@
         opacity: 0;
         transform: scale3d(.3, .3, .3)
     }
+
     50% {
         opacity: 1
     }
@@ -508,10 +543,12 @@
     0% {
         opacity: 1
     }
+
     50% {
         opacity: 0;
         transform: scale3d(.3, .3, .3)
     }
+
     to {
         opacity: 0
     }
@@ -531,17 +568,21 @@
         animation-timing-function: ease-in;
         opacity: 0
     }
+
     40% {
         transform: perspective(400px) rotateX(-20deg);
         animation-timing-function: ease-in
     }
+
     60% {
         transform: perspective(400px) rotateX(10deg);
         opacity: 1
     }
+
     80% {
         transform: perspective(400px) rotateX(-5deg)
     }
+
     to {
         transform: perspective(400px)
     }
@@ -551,10 +592,12 @@
     0% {
         transform: perspective(400px)
     }
+
     30% {
         transform: perspective(400px) rotateX(-20deg);
         opacity: 1
     }
+
     to {
         transform: perspective(400px) rotateX(90deg);
         opacity: 0
@@ -574,6 +617,7 @@
         transform: translate3d(110%, 0, 0);
         visibility: visible
     }
+
     to {
         transform: translateZ(0)
     }
@@ -584,6 +628,7 @@
         transform: translate3d(-110%, 0, 0);
         visibility: visible
     }
+
     to {
         transform: translateZ(0)
     }
@@ -594,6 +639,7 @@
         transform: translate3d(0, 110%, 0);
         visibility: visible
     }
+
     to {
         transform: translateZ(0)
     }
@@ -604,6 +650,7 @@
         transform: translate3d(0, -110%, 0);
         visibility: visible
     }
+
     to {
         transform: translateZ(0)
     }
@@ -613,6 +660,7 @@
     0% {
         transform: translateZ(0)
     }
+
     to {
         visibility: hidden;
         transform: translate3d(110%, 0, 0)
@@ -623,6 +671,7 @@
     0% {
         transform: translateZ(0)
     }
+
     to {
         visibility: hidden;
         transform: translate3d(-110%, 0, 0)
@@ -633,6 +682,7 @@
     0% {
         transform: translateZ(0)
     }
+
     to {
         visibility: hidden;
         transform: translate3d(0, 500px, 0)
@@ -643,6 +693,7 @@
     0% {
         transform: translateZ(0)
     }
+
     to {
         visibility: hidden;
         transform: translate3d(0, -500px, 0)
@@ -689,6 +740,7 @@
     0% {
         transform: rotate(0deg)
     }
+
     to {
         transform: rotate(1turn)
     }
@@ -732,6 +784,7 @@
     .vertical-timeline.vertical-timeline--two-columns {
         width: 90%
     }
+
     .vertical-timeline.vertical-timeline--two-columns:before {
         left: 50%;
         margin-left: -2px
@@ -765,9 +818,11 @@
     .vertical-timeline-element {
         margin: 4em 0
     }
+
     .vertical-timeline-element:first-child {
         margin-top: 0
     }
+
     .vertical-timeline-element:last-child {
         margin-bottom: 0
     }
@@ -829,10 +884,12 @@
         opacity: 0;
         -webkit-transform: scale(.5)
     }
+
     60% {
         opacity: 1;
         -webkit-transform: scale(1.2)
     }
+
     to {
         -webkit-transform: scale(1)
     }
@@ -844,11 +901,13 @@
         -webkit-transform: scale(.5);
         transform: scale(.5)
     }
+
     60% {
         opacity: 1;
         -webkit-transform: scale(1.2);
         transform: scale(1.2)
     }
+
     to {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -952,10 +1011,12 @@
         font-size: 20px;
         font-size: 1.25rem
     }
+
     .vertical-timeline-element-content p {
         font-size: 16px;
         font-size: 1rem
     }
+
     .vertical-timeline-element-content .vertical-timeline-element-date {
         font-size: 14px;
         font-size: .875rem
@@ -968,12 +1029,14 @@
         padding: 1.5em;
         width: 44%
     }
+
     .vertical-timeline--two-columns .vertical-timeline-element-content-arrow {
         top: 24px;
         left: 100%;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg)
     }
+
     .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
         position: absolute;
         width: 100%;
@@ -982,10 +1045,12 @@
         font-size: 16px;
         font-size: 1rem
     }
+
     .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content,
     .vertical-timeline--two-columns .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content {
         float: right
     }
+
     .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content-arrow,
     .vertical-timeline--two-columns .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content-arrow {
         top: 24px;
@@ -994,6 +1059,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     .vertical-timeline--one-column-right .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content-arrow,
     .vertical-timeline--one-column-right .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content-arrow {
         top: 24px;
@@ -1002,6 +1068,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     .vertical-timeline--two-columns .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date,
     .vertical-timeline--two-columns .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
         left: auto;
@@ -1021,6 +1088,7 @@
 }
 
 @media only screen and (min-width:1170px) {
+
     .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content.bounce-in,
     .vertical-timeline--two-columns.vertical-timeline--animate .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content.bounce-in {
         -webkit-animation: cd-bounce-2-inverse .6s;
@@ -1041,10 +1109,12 @@
         opacity: 0;
         -webkit-transform: translateX(-100px)
     }
+
     60% {
         opacity: 1;
         -webkit-transform: translateX(20px)
     }
+
     to {
         -webkit-transform: translateX(0)
     }
@@ -1056,11 +1126,13 @@
         -webkit-transform: translateX(-100px);
         transform: translateX(-100px)
     }
+
     60% {
         opacity: 1;
         -webkit-transform: translateX(20px);
         transform: translateX(20px)
     }
+
     to {
         -webkit-transform: translateX(0);
         transform: translateX(0)
@@ -1072,10 +1144,12 @@
         opacity: 0;
         -webkit-transform: translateX(100px)
     }
+
     60% {
         opacity: 1;
         -webkit-transform: translateX(-20px)
     }
+
     to {
         -webkit-transform: translateX(0)
     }
@@ -1087,11 +1161,13 @@
         -webkit-transform: translateX(100px);
         transform: translateX(100px)
     }
+
     60% {
         opacity: 1;
         -webkit-transform: translateX(-20px);
         transform: translateX(-20px)
     }
+
     to {
         -webkit-transform: translateX(0);
         transform: translateX(0)
@@ -2104,7 +2180,7 @@ button {
     border-style: solid
 }
 
-.\ !border-none {
+.\  !border-none {
     border-style: none !important
 }
 
@@ -2392,7 +2468,7 @@ button {
     letter-spacing: .05em
 }
 
-.\ !text-content {
+.\  !text-content {
     --tw-text-opacity: 1 !important;
     color: rgba(var(--content), var(--tw-text-opacity)) !important
 }
@@ -2983,19 +3059,24 @@ h5 {
     .max-2xl\:mt-0 {
         margin-top: 0
     }
+
     .max-2xl\:h-\[220px\] {
         height: 220px
     }
+
     .max-2xl\:p-8 {
         padding: 2rem
     }
+
     .max-2xl\:py-14 {
         padding-top: 3.5rem;
         padding-bottom: 3.5rem
     }
+
     .max-2xl\:pl-\[120px\] {
         padding-left: 120px
     }
+
     .max-2xl\:text-\[72px\] {
         font-size: 72px
     }
@@ -3005,20 +3086,25 @@ h5 {
     .max-xl\:mb-6 {
         margin-bottom: 1.5rem
     }
+
     .max-xl\:h-10 {
         height: 2.5rem
     }
+
     .max-xl\:translate-y-0 {
         --tw-translate-y: 0px;
         transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
     }
+
     .max-xl\:gap-4 {
         gap: 1rem
     }
+
     .max-xl\:px-6 {
         padding-left: 1.5rem;
         padding-right: 1.5rem
     }
+
     .max-xl\:text-lg {
         font-size: 1.125rem;
         line-height: 1.75rem
@@ -3036,32 +3122,41 @@ h5 {
         margin-left: auto;
         margin-right: auto
     }
+
     .max-lg\:max-w-\[295px\] {
         max-width: 295px
     }
+
     .max-lg\:max-w-\[70px\] {
         max-width: 70px
     }
+
     .max-lg\:grid-cols-1 {
         grid-template-columns: repeat(1, minmax(0, 1fr))
     }
+
     .max-lg\:gap-14 {
         gap: 3.5rem
     }
+
     .max-lg\:gap-2 {
         gap: .5rem
     }
+
     .max-lg\:px-10 {
         padding-left: 2.5rem;
         padding-right: 2.5rem
     }
+
     .max-lg\:pl-20 {
         padding-left: 5rem
     }
+
     .max-lg\:text-3xl {
         font-size: 1.875rem;
         line-height: 2.25rem
     }
+
     .max-lg\:text-base {
         font-size: 1rem;
         line-height: 1.5rem
@@ -3072,50 +3167,65 @@ h5 {
     .max-md\:top-28 {
         top: 7rem
     }
+
     .max-md\:order-1 {
         order: 1
     }
+
     .max-md\:order-2 {
         order: 2
     }
+
     .max-md\:mb-6 {
         margin-bottom: 1.5rem
     }
+
     .max-md\:flex {
         display: flex
     }
+
     .max-md\:hidden {
         display: none
     }
+
     .max-md\:h-\[80px\] {
         height: 80px
     }
+
     .max-md\:max-w-\[56px\] {
         max-width: 56px
     }
+
     .max-md\:flex-col-reverse {
         flex-direction: column-reverse
     }
+
     .max-md\:items-start {
         align-items: flex-start
     }
+
     .max-md\:gap-5 {
         gap: 1.25rem
     }
+
     .max-md\:p-6 {
         padding: 1.5rem
     }
+
     .max-md\:text-2xl {
         font-size: 1.5rem;
         line-height: 2rem
     }
+
     .max-md\:text-\[56px\] {
         font-size: 56px
     }
+
     .max-md\:text-base {
         font-size: 1rem;
         line-height: 1.5rem
     }
+
     .max-md\:text-lg {
         font-size: 1.125rem;
         line-height: 1.75rem
@@ -3126,82 +3236,106 @@ h5 {
     .max-sm\:bottom-1 {
         bottom: .25rem
     }
+
     .max-sm\:left-\[-40\%\] {
         left: -40%
     }
+
     .max-sm\:right-\[-40\%\] {
         right: -40%
     }
+
     .max-sm\:col-span-2 {
         grid-column: span 2/span 2
     }
+
     .max-sm\:h-10 {
         height: 2.5rem
     }
+
     .max-sm\:w-1\/2 {
         width: 50%
     }
+
     .max-sm\:w-\[280px\] {
         width: 280px
     }
+
     .max-sm\:w-\[290px\] {
         width: 290px
     }
+
     .max-sm\:max-w-\[56px\] {
         max-width: 56px
     }
+
     .max-sm\:max-w-\[8rem\] {
         max-width: 8rem
     }
+
     .max-sm\:translate-y-0 {
         --tw-translate-y: 0px;
         transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
     }
+
     .max-sm\:grid-cols-2 {
         grid-template-columns: repeat(2, minmax(0, 1fr))
     }
+
     .max-sm\:flex-col {
         flex-direction: column
     }
+
     .max-sm\:gap-2 {
         gap: .5rem
     }
+
     .max-sm\:gap-6 {
         gap: 1.5rem
     }
+
     .max-sm\:px-2 {
         padding-left: .5rem;
         padding-right: .5rem
     }
+
     .max-sm\:px-4 {
         padding-left: 1rem;
         padding-right: 1rem
     }
+
     .max-sm\:py-4 {
         padding-top: 1rem;
         padding-bottom: 1rem
     }
+
     .max-sm\:py-6 {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem
     }
+
     .max-sm\:pl-6 {
         padding-left: 1.5rem
     }
+
     .max-sm\:pr-16 {
         padding-right: 4rem
     }
+
     .max-sm\:text-\[2rem\] {
         font-size: 2rem
     }
+
     .max-sm\:text-base {
         font-size: 1rem;
         line-height: 1.5rem
     }
+
     .max-sm\:text-sm {
         font-size: .875rem;
         line-height: 1.25rem
     }
+
     .max-sm\:text-xl {
         font-size: 1.25rem;
         line-height: 1.75rem
@@ -3225,17 +3359,21 @@ h5 {
     .md\:hidden {
         display: none
     }
+
     .md\:w-\[11\.5rem\] {
         width: 11.5rem
     }
+
     .md\:px-6 {
         padding-left: 1.5rem;
         padding-right: 1.5rem
     }
+
     .md\:text-7xl {
         font-size: 4.5rem;
         line-height: 1
     }
+
     .md\:text-lg {
         font-size: 1.125rem;
         line-height: 1.75rem
